@@ -1,0 +1,268 @@
+/* System Settings */
+
+html {
+    font-family: 'PoppinsRegular', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header, Navigation Bar */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 90px;
+    padding: 20px 20px 20px 32px;
+}
+
+.header-logo {
+    width: 220px;
+    height: 19px;
+    margin: auto 0px;
+}
+
+.navigation-bar-list {
+    display: flex;
+    gap: 32px;
+    padding: 13px 0 13px 16px;
+}
+
+.navigation-bar-list a {
+    color: #1B1A1A;
+    text-decoration: none;
+}
+
+.navigation-bar-item {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.navigation-bar-item:last-child a {
+    background-color: #1B1A1A;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 14px;
+}
+
+/* Main Page */
+
+.main-page {
+    display: flex;
+    height: 720px;
+    background-color: #ECE7E4;
+}
+
+.main-page-description {
+    padding: 77px 60px;
+}
+
+.main-page-text {
+    margin-left: 40px;
+}
+
+#text-11 {
+    font-size: 14px;
+    color: #645C55;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+
+#text-12 {
+    font-size: 64px;
+    color: #1B1A1A;
+    text-decoration: underline;
+    line-height: 70.4px;
+}
+
+#text-13 {
+    width: 509px;
+    height: 120px;
+    color: #403E3B;
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.main-page-button {
+    width: 133px;
+    height: 46px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+#text-14-button {
+    color: #1B1A1A;
+    text-decoration: none;
+    padding: 11px 20px;
+}
+
+/* About Page */
+
+.about-page {
+    display: flex;
+    justify-content: center;
+    height: 782px;
+    margin-top: 100px;
+    columns: 2 493px;
+    gap: 133px;
+}
+
+.about-page-title {
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+
+.about-page-description {
+    break-inside: avoid;
+}
+
+.about-page-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 10px;
+    flex-direction: column;
+    width: 493px;
+}
+
+.about-page-profile {
+    display: flex;
+}
+
+.profile-picture {
+    width: 84px;
+    height: 84px;
+}
+
+.about-page-profile-text {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-21 {
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+
+#text-22 {
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+
+/* Desing Page First */
+
+.design-page-1 {
+    height: 600px;
+    background-image: url(/assets/Design1.png);
+}
+
+.design-page-1-description {
+    width: 300px;
+    height: 600px;
+    margin-left: 1080px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-31 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #403E3B;
+}
+
+#text-32 {
+    font-size: 16px;
+    color: #645C55;
+}
+
+/* Process Page */
+
+.process-page {
+    height: 581px;
+}
+
+.process-page-description {
+    width: 600px;
+    height: 82px;
+    margin: 0 auto;
+}
+
+.process-page-text {
+    text-align: center;
+    gap: 13px;
+}
+
+#text-41 {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #645C55;
+}
+
+#text-42 {
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+}
+
+.process-page-more {
+    display: inline-flex;
+}
+
+.process-page-more-text {
+
+    width: 378.66;
+    height: 259px;
+}
+
+/* Design Page Second */
+
+/* .design-page-2 {
+    height: 600px;
+} */
+
+/* Customers Page */
+
+/* .customers-page {
+    height: 410px;
+} */
+
+/* Design Page Third */
+
+/* .design-page-3 {
+    height: 600px;
+} */
+
+/* Featured Page */
+
+/* .featured-page {
+    height: 918px;
+} */
+
+/* Team Page */
+
+/* .team-page {
+    height: 592px;
+} */
+
+/* Get-in-Touch Page */
+
+/* .getintouch-page {
+    height: 314px;
+} */
+
+/* Footer, Copyright, Socials */
